@@ -1,4 +1,6 @@
 import TextCard from "./components/TextCard";
+import Slider from "./components/Slider";
+import AboutUs from "./components/Aboutus";
 
 export default function Services() {
     const anywhere=["rides","taxi","bike","car rentals" , "school rides"]
@@ -17,6 +19,9 @@ export default function Services() {
                    
                 </div>
             </div>
+            <Slider></Slider>
+<AboutUs></AboutUs>
+
         </>
     )
 }

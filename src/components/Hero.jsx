@@ -8,6 +8,7 @@ return(
     className="w-full h-full object-cover rounded-lg lg:rounded-3xl" autoPlay="autoPlay" playsInline loop="loop" muted="muted"></video>
 </div>
 </div>
+
     </>
 )
 }

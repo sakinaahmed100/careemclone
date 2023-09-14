@@ -13,7 +13,7 @@ export default function TextCard({props1,props2,props3,props4,imgDiv,data,bullet
                     <div className={`w-6 h-6 ${imgDiv}`}>
                     <img className={`rtl:pl-1 rtl:pr-0 invert brightness-0  ${bullet}`} src="https://upload-cdn.careem.com/product_bcef266a29.png" alt="" />
                     </div>
-                    <span ><p className="uppercase">{e}</p></span>
+                    <span ><p className="capitalize">{e}</p></span>
 
                 </li>
                 )
